@@ -6,7 +6,8 @@
 }
   
 body {
-  background-color: #f4f1ec;
+  /* background-color: #f4f1ec; */
+  background: linear-gradient(to bottom right,  #001427, #708d81);  
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -61,6 +62,11 @@ input:checked + label.card {
 input:checked + label .card-wrapper {
   opacity: 1;
 }
+
+.initials {
+  z-index: 88;
+  opacity: 1;
+}
   
 .profile-sidebar {
   width: 32%;
@@ -69,7 +75,7 @@ input:checked + label .card-wrapper {
   flex-direction: column;
   align-items: center;
   background-color: #fffdf9;
-  background: linear-gradient(to bottom right, #dcfff2, #bce3c6);  
+  background: linear-gradient(to bottom right, #d8f3dc, #b7e4c7);  
 }
   
 .c2 {
@@ -133,7 +139,7 @@ input:checked + label .card-wrapper {
   display: flex;
   flex-direction: column;
   background-color: #fffdf9;
-  background: linear-gradient(to bottom right, #e9fdf6, #c3ddd4);
+  background: linear-gradient(to bottom right, #b7e4c7, #b7e4c7);  
 }
 
 .c1 {
